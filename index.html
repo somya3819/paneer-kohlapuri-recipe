@@ -1,38 +1,92 @@
-<!--done-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=\, initial-scale=1.0">
-    <title>Paneer Kohlapuri Recipe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RECIPE-MAKER-WEBPAGE</title>
+    <link rel = "stylesheet" href = "recipe.css">
+    <style>
+        body{
+            background: white;
+        }
+        .container img{
+            height: 250px;
+            width: 250px;
+            border: 2px solid black;
+            display: flex;
+            margin: auto;
+        }
+        .container .description{
+            background-color: rgb(255, 255, 113);
+            font-size: 20px;
+            font-weight: 500;
+            padding: 10px;
+            margin: 20px;
+        }
+        #cook-time{
+            color: red;
+            font-size: 20px;
+            font-weight: 600;
+            margin-left: 20px;
+        }
+        ul{
+            list-style: square;
+            margin-left: 20px;
+            line-height: 25px;
+            font-size: 18px;
+        }
+        ol{
+            margin-left: 20px;
+            line-height: 20px;
+            font-size: 18px;
+        }
+        .container .time{
+            color: grey;
+            line-height: 0px;
+        }
+        #title{
+            margin-left: 20px;
+        }
+    </style>
 </head>
 <body>
-    <div class="rec">
-        <img src="/sem 3/paneer recipe/images/paneer kolhapuri.jpeg" height="200px" width="200px" alt="food">
-        <br>
-        <h2> <b>Your Paneer Kohlapuri Recipe</b></h2><br>
-        <h4>A typical Maharashtrian taste profile, with very rich, complex spice notes, place crispy parantha or steamed rice, along with some amti dal or kachumber.</h4>
-        <h6>Total time: 50-65 minutes</h6>
-        <h3><b>Ingredients</b></h3>
-        <h6>
-            <li>Coconut • 1 cup (70 gms approx ), grated</li>
-              <li>  Dry Red . 4 pteces</li>
-              <li>  Omon . 2, finely chopped</li>
-               <li> Paneer : 750 gms cut into cubes</li>
-               <li> Caesar Dressing</li>
-        </h6>
-        <h3><b>Preparation</b></h3>
-<h6>1- In a karahi, dry roast grated coconut, cloves, cinnamon, whole pepper, red chillies, popp:
-    lime.
-    <br>
-    Timo- 25 minutes
-    </h6>
-<h6>2- Heat Oil in a karahi and sauté the oruons till soft and translucent, add ginger-garlic paste
-    done and tho oil begins to separator.
-<br>
-    Timo- 10 minutes
-    </h6><h6>3- Add the coarsely ground spices, mtx well and fry for 5-10 minutes Add water paneer C25 minutes<br>
-</h6>
+    <div class="container">
+        <center><h1>FOODIES</h1></center>
+        <hr>
+        <center><h3>Today's Recipe: <em>PANEER KOHLAPURI</em></h3></center>
+        <img src="/sem 3/paneer recipe/images/paneer kolhapuri.jpeg" alt="image of the dish " >
+        <p class = description><em>A typical Maharashtrian taste profile, with very rich, complex spice notes, and flavourful aroma.Paneer Kolhapuri is a spicy and delicious curry made with Indian cottage cheese, lot of spices, coconut, onions and tomatoes. The recipe is from the spicy Kolhapuri cuisine served with some amti dal and kachumber.</em></p>
+        <p id = "cook-time">Total Time: 20-30 mins</p>
+        <h3 id = "title">Ingrediants:</h3>
+        <ul class = "ingredients">
+            <li>Coconut: 1 cup(70 gms approx), grated</li>
+            <li>Dry Red Chilies: 4 pieces</li>
+            <li>Onion: 2, finely chopped</li>
+            <li>Paneer: 750 gms, cut into cubes</li>
+            <li>Caeser Dressing</li>
+        </ul>
+        <h3 id = "title">Preparation:</h3>
+        <ol class = "Preparation">
+            <li>Firstly, in a pan dry roast all the spices listed for masala on low flame for 2 minutes.</li>
+            <li>Blend to fine powder and kolhapuri masala is ready. keep aside.</li>
+            <li>Heat 3 tbsp oil and fry 9 cubes paneer. keep aside.</li>
+            <p class = "time">Time: 5 mins</p>
+            <li>In the same oil add in 1 bay leaf, onion, ginger garlic paste and saute well.</li>
+            <p class = "time">Time: 3-4 mins</p>
+            <li>Add 3 tomato and cook well.</li>
+            <p class = "time">Time: 10 mins</p>
+            <li>Mash the tomatoes well with the help of potato masher.</li>
+            <li>Add in prepared kolhapuri masala, ¼ tsp turmeric and 1 tsp salt.</li>
+            <li>Saute on low flame till oil separates from masala.</li>
+            <p class = "time">Time: 3-4 mins</p>
+            <li>Now add 1 cup water and mix well adjusting consistency.</li>
+            <li>Add in fried paneer.</li>
+            <p class = "time">Time: 2-3 mins</p>
+            <li>Cover and simmer.</li>
+            <p class = "time">Time: 5 mins</p>
+            <li>Now add 1 tsp crushed kasuri methi and mix well.</li>
+            <li>Finally serve paneer kolhapuri masala with tandoori roti or garlic naan.</li>
+        </ol>
     </div>
 </body>
 </html>
